@@ -1,12 +1,12 @@
-name = "berhasil2"
+name = "berhasil3"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
 
-#[[routes]]
-#pattern = "pasopati.us.kg"
-#costum_domain = true
+[[routes]]
+pattern = "pasopati.us.kg"
+costum_domain = true
 
 [vars]
 PROXYIP = "104.248.145.216:443"
